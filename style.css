@@ -118,23 +118,6 @@ figure { margin: 0; }
 
 .photo img { transition: transform 260ms ease, box-shadow 260ms ease; }
 
-.asset-link {
-  display: table;
-  margin: 14px auto 0;
-  color: var(--muted);
-  font-size: 0.84rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(139, 129, 120, 0.38);
-  padding-bottom: 3px;
-}
-
-.asset-link:hover {
-  color: var(--text);
-  border-bottom-color: var(--text);
-}
-
 .video-section {
   width: min(100%, 880px);
   margin: 82px auto 0;
@@ -147,19 +130,6 @@ figure { margin: 0; }
 
 .video-section video {
   padding: 8px;
-}
-
-.video-link {
-  margin-top: 18px;
-}
-
-.save-note {
-  width: min(100%, 640px);
-  margin: 30px auto 0;
-  text-align: center;
-  color: var(--muted);
-  font-size: 0.9rem;
-  line-height: 1.6;
 }
 
 footer {
@@ -274,16 +244,6 @@ footer {
 
   .video-section {
     margin-top: 42px;
-  }
-
-  .asset-link {
-    margin-top: 10px;
-    font-size: 0.78rem;
-  }
-
-  .save-note {
-    margin-top: 22px;
-    font-size: 0.84rem;
   }
 
   .prev,
