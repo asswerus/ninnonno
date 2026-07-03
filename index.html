@@ -4,34 +4,65 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content="#fbf7ef" />
   <title>L'amore trova sempre un modo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="ambient" aria-hidden="true"></div>
+
   <main>
-    <header class="hero">
-      <p class="eyebrow">Un piccolo album</p>
-      <h1>L'amore trova sempre un modo.</h1>
-      <div class="line"></div>
-    </header>
+    <section class="hero" aria-label="Introduzione">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Un piccolo album</p>
+        <h1>L'amore trova sempre un modo.</h1>
+        <div class="line"></div>
+      </div>
 
-    <section class="featured">
-      <img src="massimo_edo_1.png" alt="">
+      <figure class="hero-photo reveal">
+        <img src="massimo_edo_1.png" alt="" fetchpriority="high">
+      </figure>
     </section>
 
-    <section class="gallery" aria-label="Galleria fotografica">
-      <img src="massimo_edo_2.png" alt="" loading="lazy">
-      <img src="massimo_edo_3.png" alt="" loading="lazy">
-      <img src="massimo_edo_4.png" alt="" loading="lazy">
-      <img src="massimo_edo_5.png" alt="" loading="lazy">
-      <img src="massimo_edo_6.png" alt="" loading="lazy">
-      <img src="massimo_edo_7.png" alt="" loading="lazy">
+    <section class="story" aria-label="Galleria fotografica">
+      <figure class="photo wide reveal">
+        <img src="massimo_edo_2.png" alt="" loading="lazy">
+      </figure>
+
+      <div class="pair">
+        <figure class="photo reveal">
+          <img src="massimo_edo_3.png" alt="" loading="lazy">
+        </figure>
+        <figure class="photo reveal delay">
+          <img src="massimo_edo_4.png" alt="" loading="lazy">
+        </figure>
+      </div>
+
+      <figure class="photo wide reveal">
+        <img src="massimo_edo_5.png" alt="" loading="lazy">
+      </figure>
+
+      <div class="pair">
+        <figure class="photo reveal">
+          <img src="massimo_edo_6.png" alt="" loading="lazy">
+        </figure>
+        <figure class="photo reveal delay">
+          <img src="massimo_edo_7.png" alt="" loading="lazy">
+        </figure>
+      </div>
     </section>
 
-    <footer>Realizzato con amore.</footer>
+    <section class="video-placeholder reveal" aria-label="Video futuro">
+      <div>
+        <span>▶</span>
+        <p>Un piccolo momento</p>
+      </div>
+    </section>
+
+    <footer class="reveal">Realizzato con amore.</footer>
   </main>
 
   <div class="lightbox" hidden>
