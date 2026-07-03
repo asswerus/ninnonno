@@ -5,23 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex, nofollow" />
   <title>L'amore trova sempre un modo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main>
-    <h1>L'amore trova sempre un modo.</h1>
+    <header class="hero">
+      <p class="eyebrow">Un piccolo album</p>
+      <h1>L'amore trova sempre un modo.</h1>
+      <div class="line"></div>
+    </header>
+
+    <section class="featured">
+      <img src="massimo_edo_1.png" alt="">
+    </section>
 
     <section class="gallery" aria-label="Galleria fotografica">
-      <img src="massimo_edo_1.png" alt="">
-      <img src="massimo_edo_2.png" alt="">
-      <img src="massimo_edo_3.png" alt="">
-      <img src="massimo_edo_4.png" alt="">
-      <img src="massimo_edo_5.png" alt="">
-      <img src="massimo_edo_6.png" alt="">
-      <img src="massimo_edo_7.png" alt="">
+      <img src="massimo_edo_2.png" alt="" loading="lazy">
+      <img src="massimo_edo_3.png" alt="" loading="lazy">
+      <img src="massimo_edo_4.png" alt="" loading="lazy">
+      <img src="massimo_edo_5.png" alt="" loading="lazy">
+      <img src="massimo_edo_6.png" alt="" loading="lazy">
+      <img src="massimo_edo_7.png" alt="" loading="lazy">
     </section>
 
     <footer>Realizzato con amore.</footer>
   </main>
+
+  <div class="lightbox" hidden>
+    <button class="close" aria-label="Chiudi">×</button>
+    <button class="prev" aria-label="Foto precedente">‹</button>
+    <img alt="">
+    <button class="next" aria-label="Foto successiva">›</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
